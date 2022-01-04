@@ -10,6 +10,8 @@ This dataset has one file- sf_airbnblistings.csv which has columns describing fe
 
 This dataset is a compilation of multiple datasets found on Inside Airbnb.( http://insideairbnb.com/get-the-data.html)
 
+Data modeling with supervised learning using linear regression or other methods
+
 # Deliverables: 
 
 1. Predict the price of each house in different regions
