@@ -1,4 +1,4 @@
-# Project : Analizing sf_abnb_listings
+# Project : Analizing sf_abnb_listings(sf= San Francisco)
 
 # Poject Context: 
 
