@@ -19,3 +19,25 @@ CREATE TABLE abnb (
      beds INT NOT NULL,
 	 bed_type VARCHAR NOT NULL,
  PRIMARY KEY (id));
+
+ --left join 
+SELECT abnb.ID,
+ 	abnb.neighbourhood_cleansed,
+    abnbacc.property_type,
+    abnbacc.room_type,
+    abnbacc.accommodates
+FROM abnb
+LEFT JOIN abnbacc
+ON abnb.ID = abnbacc.ID;
+--left join new table cleaned 
+SELECT 
+	abnb.ID,
+ 	abnb.neighbourhood_cleansed,
+    abnbacc.property_type,
+    abnbacc.room_type,
+    abnbacc.accommodates
+INTO abnb_clean
+FROM abnb
+LEFT JOIN abnbacc
+ON abnb.ID = abnbacc.ID
+;
