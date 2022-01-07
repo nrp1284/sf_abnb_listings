@@ -1,3 +1,4 @@
+--create table 1
 CREATE TABLE abnb (
     ID INT NOT NULL,
      host_response_time VARCHAR NOT NULL,
@@ -8,7 +9,7 @@ CREATE TABLE abnb (
      neighbourhood_cleansed VARCHAR NOT NULL,
  PRIMARY KEY (id));
  
- 
+ --create table 2
  CREATE TABLE abnbacc (
      ID INT NOT NULL,
      property_type VARCHAR NOT NULL,
