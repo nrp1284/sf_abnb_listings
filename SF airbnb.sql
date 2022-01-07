@@ -1,4 +1,5 @@
 CREATE TABLE abnb (
+    ID INT NOT NULL,
      host_response_time VARCHAR NOT NULL,
      host_response_rate INT NOT NULL,
      host_listings_count INT NOT NULL,
@@ -9,6 +10,7 @@ CREATE TABLE abnb (
  
  
  CREATE TABLE abnbacc (
+     ID INT NOT NULL,
      property_type VARCHAR NOT NULL,
      room_type VARCHAR NOT NULL,
      accommodates INT NOT NULL,
