@@ -16,6 +16,6 @@ CREATE TABLE abnb (
      accommodates INT NOT NULL,
      bathrooms INT NOT NULL,
      bedrooms INT NOT NULL,
-     beds VARCHAR NOT NULL,
+     beds INT NOT NULL,
 	 bed_type VARCHAR NOT NULL,
  PRIMARY KEY (id));
