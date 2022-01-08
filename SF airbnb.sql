@@ -42,3 +42,10 @@ FROM abnb
 LEFT JOIN abnbacc
 ON abnb.ID = abnbacc.ID
 ;
+
+
+--testing to import csv into table
+COPY test
+FROM '/Users/josephmarrujo/Documents/GitHub/sf_abnb_listings/resources/sf_airbnb_listings.csv' 
+DELIMITER ',' 
+CSV HEADER;
