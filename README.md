@@ -12,16 +12,14 @@ Since its inception in 2008, Airbnb has disrupted the traditional hospitality in
 
 2. This dataset is a compilation of multiple datasets found on Inside Airbnb.( http://insideairbnb.com/get-the-data.html)
 
+# Team Communication channels:
 
-# Deliverables: 
+1. Zoom calls 
+   
+2. Slack
+   
+3. Mobile and Emails
 
-1. Predict the price of each house in different regions
-
-2. Describe a region using the names of listings in that region
- 
-3. Estimate the popularity of a listing based on given features
-
-4. Features based accommodation: The number of guests, number of bedrooms, bathrooms, beds, price, minimum_nights, maximum_nights, number_of_reviews
 
 # Team Questions Summary:
 
@@ -94,6 +92,17 @@ We came to following conclusion after this questions to support our project:
 
 Currently our team is align on technology to use for current deliverables and can be updated as we go along with project requirement on adding any new deliverables
 
+# Deliverables: 
+
+1. Predict the price of each house in different regions
+
+2. Describe a region using the names of listings in that region
+ 
+3. Estimate the popularity of a listing based on given features
+
+4. Features based accommodation: The number of guests, number of bedrooms, bathrooms, beds, price, minimum_nights, maximum_nights, number_of_reviews
+
+
 # Recommendation for future analysis
 
 1. ETL process using geojson file as well that is added to our resource folder
@@ -117,6 +126,22 @@ successful using available technology that we learned so far.
 2. Initial cleaning of some data columns types which are least concern to deliverables
    
 ![Data Cleaning](images/datacleaning_dropping_columns.png)
+
+3. ERD Diagram
+   
+![Entity Relationship Diagram](images/ERD.png)
+
+4. Database table creation
+
+![Database Table cration](images/DB_Table.png)
+
+5. Provisional DB to pgAdmin
+   
+![ DB to pgAdmin](images/ProvisionalDB_to_pgAdmin.png)
+
+6. Label Encoder 
+
+![]
 
 
 
