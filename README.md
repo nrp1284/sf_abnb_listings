@@ -137,15 +137,20 @@ successful using available technology that we learned so far.
 
 ![Database Table cration](images/DB_Table.png)
 
-5 Database Tables in pgAdmin using join function
+5. Database Tables in pgAdmin using join function
 
 ![DB Tables using Join](images/pgAdmin_tableANDjoins.png)
 
-1. Provisional DB to pgAdmin
+6. Provisional DB to pgAdmin
    
 ![ DB to pgAdmin](images/ProvisionalDB_to_pgAdmin.png)
 
-6. Label Encoder 
+7. pgAdmin data reading
+
+![pgAdmin table reading ](images/pgAdmin_Data_Output.png)
+
+
+8. Label Encoder 
 
 ![Label Encoder](images/label_encoder.png)
 
