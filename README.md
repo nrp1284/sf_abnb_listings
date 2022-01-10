@@ -154,6 +154,10 @@ successful using available technology that we learned so far.
 
 ![Label Encoder](images/label_encoder.png)
 
+9. DB to ML
+    
+![DB to ML](images/DB_to_ML.png)
+
 
 
 
