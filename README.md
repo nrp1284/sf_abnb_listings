@@ -27,7 +27,7 @@ Does this data contain enough information?
 
 Looking at different columns which data cleaning techniques can we utilize the best? Via Excel or Pandas?
 
-What can we learn about what we learn about the neighborhoods" e.g. like close to GG Park, close to Union Sq / financial district etc?
+What can we learn about the neighborhoods" e.g. like close to GG Park, close to Union Sq / financial district etc?
 
 Based on different factors is it possible to recommend a title to the host for his/her listing?
 
@@ -47,7 +47,7 @@ To explore this large data set in an unstructured way and to uncover initial pat
 
 1. Data is more in detail in terms of features, geographical location, pricing, amenities and etc..
    
-2. Data needs cleaning in some areas as there are 173 columns and about 6121  listings. We will be using excel or pandas for this purpose to identify the correlation between 
+2. Data needs cleaning in some areas as there are 106 columns and about 6121  listings. We will be using excel or pandas for this purpose to identify the correlation between 
    variables ( Continuous and categorical)
    
 3. We also decided to use graphical displays of data, such as bar charts and scatter plots, which are valuable tools in visual data exploration.
@@ -130,6 +130,8 @@ successful using available technology that we learned so far.
 3. ERD Diagram
    
 ![Entity Relationship Diagram](images/ERD.png)
+
+![ERD BETA](images/ERD_Beta.png)
 
 4. Database table creation
 
