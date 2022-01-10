@@ -27,7 +27,7 @@ Does this data contain enough information?
 
 Looking at different columns which data cleaning techniques can we utilize the best? Via Excel or Pandas?
 
-What can we learn about what we learn about the neighborhoods" e.g. like close to GG Park, close to Union Sq / financial district etc?
+What can we learn about the neighborhoods" e.g. like close to GG Park, close to Union Sq / financial district etc?
 
 Based on different factors is it possible to recommend a title to the host for his/her listing?
 
