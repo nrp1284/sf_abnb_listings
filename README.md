@@ -47,7 +47,7 @@ To explore this large data set in an unstructured way and to uncover initial pat
 
 1. Data is more in detail in terms of features, geographical location, pricing, amenities and etc..
    
-2. Data needs cleaning in some areas as there are 173 columns and about 6121  listings. We will be using excel or pandas for this purpose to identify the correlation between 
+2. Data needs cleaning in some areas as there are 106 columns and about 6121  listings. We will be using excel or pandas for this purpose to identify the correlation between 
    variables ( Continuous and categorical)
    
 3. We also decided to use graphical displays of data, such as bar charts and scatter plots, which are valuable tools in visual data exploration.
