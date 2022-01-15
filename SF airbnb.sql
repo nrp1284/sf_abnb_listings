@@ -22,15 +22,17 @@ CREATE TABLE abnb (
  PRIMARY KEY (id));
 
  --left join 
-SELECT abnb.ID,
- 	abnb.neighbourhood_cleansed,
-    abnbacc.property_type,
-    abnbacc.room_type,
-    abnbacc.accommodates
-FROM abnb
-LEFT JOIN abnbacc
-ON abnb.ID = abnbacc.ID;
---left join new table cleaned 
+SELECT listings.ID,
+ 	listings.neighbourhood_cleansed,
+    listings.property_type,
+    listings.room_type,
+    listings.accommodates,
+    sfmasszip.Land_area_SqMeters
+FROM listings
+RIGHT JOIN sfmasszip
+ON listings.zipcode = sfmasszip.zip_code;
+
+--left join into new table 'abnb_clean' 
 SELECT 
 	abnb.ID,
  	abnb.neighbourhood_cleansed,
@@ -42,10 +44,3 @@ FROM abnb
 LEFT JOIN abnbacc
 ON abnb.ID = abnbacc.ID
 ;
-
-
---testing to import csv into table
-COPY test
-FROM '/Users/josephmarrujo/Documents/GitHub/sf_abnb_listings/resources/sf_airbnb_listings.csv' 
-DELIMITER ',' 
-CSV HEADER;
