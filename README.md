@@ -1,4 +1,4 @@
-# Week 1:
+
 
 # Project : Analyzing San Francisco Airbnb listings and evaluating pricing, popularity, features and accommodations by listing
 
