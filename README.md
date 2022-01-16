@@ -12,6 +12,8 @@ Since its inception in 2008, Airbnb has disrupted the traditional hospitality in
 
 2. This dataset is a compilation of multiple datasets found on Inside Airbnb.( http://insideairbnb.com/get-the-data.html)
 
+3. stack overflow
+
 # Team Communication channels:
 
 1. Zoom calls 
