@@ -3,20 +3,24 @@ ALTER TABLE listings
 ALTER COLUMN zipcode TYPE VARCHAR; 
 
 ALTER TABLE sfmasszip
+ALTER COLUMN zip_code TYPE VARCHAR; 
+
+
+ALTER TABLE sfmasszip
 ALTER COLUMN land_area_sqmeters TYPE VARCHAR;
 
+-- join both tables, 
 SELECT * FROM listings
 LEFT JOIN sfmasszip
 ON listings.zipcode = sfmasszip.zip_code;
 
- 
-
-
-
-
 
 
 --change column type date--not used
+ALTER TABLE listings 
+ALTER COLUMN host_since SET DATA TYPE date
+      USING to_date(first_review, 'mm-dd-yyyy');
+
 ALTER TABLE listings 
 ALTER COLUMN first_review SET DATA TYPE date
       USING to_date(first_review, 'mm-dd-yyyy');
@@ -53,34 +57,34 @@ BEGIN;
 
 CREATE TABLE IF NOT EXISTS public.listings
 (
-    id bigint,
+    id integer,
     host_since date,
     host_response_time text,
     host_response_rate text,
     host_is_superhost character varying,
-    host_listings_count bigint,
-    host_total_listings_count bigint,
-    host_identity_verified bigint,
+    host_listings_count integer,
+    host_total_listings_count integer,
+    host_identity_verified integer,
     neighbourhood_cleansed text,
     zipcode character varying,
     latitude double precision,
     longitude double precision,
     property_type text,
     room_type text,
-    accommodates bigint,
+    accommodates integer,
     bathrooms double precision,
-    bedrooms bigint,
-    beds bigint,
-    price bigint,
-    minimum_nights bigint,
-    maximum_nights bigint,
+    bedrooms integer,
+    beds integer,
+    price integer,
+    minimum_nights integer,
+    maximum_nights integer,
     calendar_updated text,
-    availability_30 bigint,
-    availability_60 bigint,
-    availability_90 bigint,
-    availability_365 bigint,
-    number_of_reviews bigint,
-    number_of_reviews_ltm bigint,
+    availability_30 integer,
+    availability_60 integer,
+    availability_90 integer,
+    availability_365 integer,
+    number_of_reviews integer,
+    number_of_reviews_ltm integer,
     first_review date,
     review_scores_rating double precision,
     review_scores_accuracy double precision,
@@ -89,24 +93,24 @@ CREATE TABLE IF NOT EXISTS public.listings
     review_scores_communication double precision,
     review_scores_location double precision,
     review_scores_value double precision,
-    instant_bookable bigint,
-    calculated_host_listings_count bigint,
-    calculated_host_listings_count_entire_homes bigint,
-    calculated_host_listings_count_private_rooms bigint,
-    calculated_host_listings_count_shared_rooms bigint,
+    instant_bookable integer,
+    calculated_host_listings_count integer,
+    calculated_host_listings_count_entire_homes integer,
+    calculated_host_listings_count_private_rooms integer,
+    calculated_host_listings_count_shared_rooms integer,
     reviews_per_month double precision,
-    host_days_active bigint,
+    host_days_active integer,
     time_since_first_review text,
-    time_since_last_review bigint
+    time_since_last_review integer
 );
 
 CREATE TABLE IF NOT EXISTS public.sfmasszip
 (
-    index bigint,
+    index integer,
     zip_code character varying,
     land_area_sqmeters character varying,
-    land_area_sqmiles bigint,
-    land_area_sqkilometers bigint
+    land_area_sqmiles integer,
+    land_area_sqkilometers integer
 );
 
 ALTER TABLE public.sfmasszip
