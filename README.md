@@ -96,11 +96,32 @@ Currently our team is align on technology to use for current deliverables and ca
 
 # Deliverables: 
 
-1. Predict the price of each house in different regions
+1. Predictions:
+   
+   
+   a) San Francisco hosts joining Airbnb each month
+   
+
+   b) San Francisco hosts joining Airbnb and listings getting their first review in each month
+
+   b) San Francisco Airbnb listings getting their first review each month
+
+   c) Number of listings per host and Change per year
+
+   d) Nightly price change/year 
+
+   e) Advertised Price range and Distribution
 
 2. Describe a region using the names of listings in that region
  
+   a) Plotting the number of listings in each SF neighbour
+
+   b)  Finding Median price of Airbnb listings in SF neighbourhood
+
+   
 3. Estimate the popularity of a listing based on given features
+   
+   a) accommodation by how many, bathrooms, bedrooms and beds
 
 4. Features based accommodation: The number of guests, number of bedrooms, bathrooms, beds, price, minimum_nights, maximum_nights, number_of_reviews
 
