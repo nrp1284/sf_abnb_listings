@@ -1,3 +1,9 @@
+
+-- join both tables, 
+SELECT * FROM listings
+LEFT JOIN sfmasszip
+ON listings.zipcode = sfmasszip.zip_code;
+
 -- alter column type ONLY after the tables are created in pgADMIN.  run in pgADMIN
 ALTER TABLE listings
 ALTER COLUMN zipcode TYPE VARCHAR; 
@@ -6,17 +12,7 @@ ALTER TABLE sfmasszip
 ALTER COLUMN zip_code TYPE VARCHAR; 
 
 
-ALTER TABLE sfmasszip
-ALTER COLUMN land_area_sqmeters TYPE VARCHAR;
-
--- join both tables, 
-SELECT * FROM listings
-LEFT JOIN sfmasszip
-ON listings.zipcode = sfmasszip.zip_code;
-
-
-
---change column type date--not used
+--change column type to_date
 alter table listings 
 alter first_review type date using(first_review::date)
 
@@ -25,6 +21,10 @@ alter host_since type date using(host_since::date)
 
 select * from listings;
 
+
+
+
+--not used
 ALTER TABLE listings 
 ALTER COLUMN first_review SET DATA TYPE date
       USING to_date(first_review, 'mm-dd-yyyy');
