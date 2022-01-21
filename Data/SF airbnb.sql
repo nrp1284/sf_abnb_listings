@@ -17,9 +17,13 @@ ON listings.zipcode = sfmasszip.zip_code;
 
 
 --change column type date--not used
-ALTER TABLE listings 
-ALTER COLUMN host_since SET DATA TYPE date
-      USING to_date(first_review, 'mm-dd-yyyy');
+alter table listings 
+alter first_review type date using(first_review::date)
+
+alter table listings 
+alter host_since type date using(host_since::date)
+
+select * from listings;
 
 ALTER TABLE listings 
 ALTER COLUMN first_review SET DATA TYPE date
