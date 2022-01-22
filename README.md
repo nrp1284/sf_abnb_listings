@@ -2,9 +2,11 @@
 
 # Project : Analyzing San Francisco Airbnb listings and evaluating pricing, popularity, features and accommodations by listing
 
-# Project Context: 
+# Project Outline: 
 
 Since its inception in 2008, Airbnb has disrupted the traditional hospitality industry as more travellers decide to use Airbnb as their primary means of accommodation. Airbnb offers travellers a more unique and personalized way of accommodation and experience.
+
+![Project Outline](images/map.png)
 
 # Project Resources and Acknowledgements:
 
@@ -180,10 +182,69 @@ successful using available technology that we learned so far.
     
 ![DB to ML](images/DB_to_ML.png)
 
+# Machine Learning Model:
+
+1. Description of preliminary data preprocessing:
+   
+   a) Stage:
+   
+   ![ Data Processing](images/ML%20Model.png)
+
+   b) Process used:
+
+   ![Data Processing](images/Data_Processing_%20Method.png)
 
 
+2. Description of preliminary feature engineering and preliminary feature selection, including their decisionmaking process 
+
+a) Preliminary feature engineering:
+
+The process of creating new features from raw data to increase the predictive power of the learning algorithm was not easily apparent. To capture additional engineered features in 
+
+the original feature set we selected key subset of features to reduce the dimensionality of the training problem by eliminating irrelevant, redundant, or highly correlated features.
+
+Training data consists of a matrix composed of rows and columns. Although many of the raw data fields can be used directly to train a model, it was important for us to create additional (engineered) features for an enhanced training dataset to provide information that better differentiates the patterns in the data.
+
+b) Preliminary feature selection:
+
+With the goal of constructing effective features in the training data, two regression models are built using the same algorithm but with two different training datasets. The two datasets represent the same raw input data, but with an increasing number of features set. These features are grouped into two categories:
+
+1) All colums to see overall accuracy score agianst price
+
+2) Only colums that can contribute to predictics better pricing model
+
+3. Decisionmaking process:
+   
+a) Selecting Data: Integrate data, de-normalize it into a dataset, collect it together.
+
+b) Preprocess Data: Format it, clean it, sample it to make it work.
+
+c) Transform Data: Feature Engineer can be possible or not
+
+d) Model Data: Create models, evaluate them and tune them.
+
+3.  Description of how data was split into training and testing sets:
+
+We used the scikit-learn Python machine learning library to provides an implementation of the train-test split evaluation procedure via the train_test_split() function.
+
+![ Data Split Using train test Model](images/splidata_train_test_model.png)
+
+The train-test split procedure is appropriate here due to large dataset
+
+Also Sklearn provided the functionality to split the dataset for training and testing. Splitting the dataset is essential for an unbiased evaluation of prediction performance.
 
 
+4. Explanation of model choice, including limitations and benefits:
 
+Model used: Logistic Regression 
+
+Logistic regression can help find the probability of event success and event failure. In our dataset the dependent variable are binary(0/1) in nature. It supports categorizing data into discrete classes by studying the relationship from a given set of labelled data. This model learns a linear relationship from the given dataset and then introduces a non-linearity in the form of the Sigmoid function.
+
+![Why Logistic Regression](images/model_choice.png)
+
+
+# A blueprint for the dashboard 
+
+![Tableau Dashboard](images/tableau_dashboard.png)
 
 
