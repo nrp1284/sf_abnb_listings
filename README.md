@@ -6,7 +6,6 @@
 
 Since its inception in 2008, Airbnb has disrupted the traditional hospitality industry as more travellers decide to use Airbnb as their primary means of accommodation. Airbnb offers travellers a more unique and personalized way of accommodation and experience.
 
-![Project Outline](images/map.png)
 
 # Project Resources and Acknowledgements:
 
@@ -174,11 +173,13 @@ successful using available technology that we learned so far.
 
 ![pgAdmin table reading ](images/pgAdmin_Data_Output.png)
 
-8. Label Encoder 
+8. ![Project Outline](images/map.png)
+
+9. Label Encoder 
 
 ![Label Encoder](images/label_encoder.png)
 
-9. DB to ML
+10. DB to ML
     
 ![DB to ML](images/DB_to_ML.png)
 
