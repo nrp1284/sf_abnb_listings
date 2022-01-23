@@ -189,7 +189,7 @@ successful using available technology that we learned so far.
    
    a) Stage:
    
-   ![ Data Processing](images/ML%20Model.png)
+   ![ Data Processing Model](images/ML%20Model.png)
  
    b) Process used:
  
@@ -212,9 +212,12 @@ With the goal of constructing effective features in the training data, two regre
  
 1) All columns to see overall accuracy score against price
    
-![All Cols](images/Data_Processing_%20Method.png)
+      
+![All Cols](images/all%20Cols_selection.png)
+
+
  
-2) Only columns that can contribute to predictics better pricing model
+1) Only columns that can contribute to predictics better pricing model
    
 ![Selected Cols for Predictions ](images/selected_cols.png)
  
