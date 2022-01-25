@@ -14,6 +14,14 @@ Since its inception in 2008, Airbnb has disrupted the traditional hospitality in
 2. This dataset is a compilation of multiple datasets found on Inside Airbnb.( http://insideairbnb.com/get-the-data.html)
  
 3. stack overflow
+
+4. Presentation: 
+
+[view googleslides](https://docs.google.com/presentation/d/1YdTfHFZa4LuGV4T-gGrehBDw-RvZP2CwBLBRZTNz02M/edit#slide=id.p)
+
+5. Dashboard: 
+
+https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes
  
 # Team Communication channels:
  
@@ -255,13 +263,7 @@ Logistic regression can help find the probability of event success and event fai
  
 ![Tableau Dashboard](images/tableau_dashboard.png)
 
-# link to Google slide:
 
-https://docs.google.com/presentation/d/1YdTfHFZa4LuGV4T-gGrehBDw-RvZP2CwBLBRZTNz02M/edit#slide=id.p
-
-# link to Dashboard:
-
-https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes
 
 
 
