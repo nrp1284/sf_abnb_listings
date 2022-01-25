@@ -255,6 +255,14 @@ Logistic regression can help find the probability of event success and event fai
  
 ![Tableau Dashboard](images/tableau_dashboard.png)
 
+# link to Google slide:
+
+https://docs.google.com/presentation/d/1YdTfHFZa4LuGV4T-gGrehBDw-RvZP2CwBLBRZTNz02M/edit#slide=id.p
+
+# link to Dashboard:
+
+https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes
+
 
 
 
