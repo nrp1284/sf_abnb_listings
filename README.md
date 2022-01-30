@@ -15,13 +15,13 @@ Since its inception in 2008, Airbnb has disrupted the traditional hospitality in
  
 3. stack overflow
 
-4. Presentation: 
+# Presentation: 
 
-[view googleslides](https://docs.google.com/presentation/d/1YdTfHFZa4LuGV4T-gGrehBDw-RvZP2CwBLBRZTNz02M/edit#slide=id.p)
+  [view googleslides](https://docs.google.com/presentation/d/1YdTfHFZa4LuGV4T-gGrehBDw-RvZP2CwBLBRZTNz02M/edit#slide=id.p)
 
-5. Dashboard: 
+# Dashboard: 
 
-https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes
+  https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes
  
 # Team Communication channels:
  
@@ -51,11 +51,8 @@ Can we use different machine learning techniques?
 What area of database will be best for Tableau dashboard presentation?
  
 # Description of the data exploration phase of the project:
- 
-As a team we reviewed data that is been saved as sf_airbnblistings.csv and  we came to a decision to explore this in more details in regards to deliverables that we are targeting
- 
-To explore this large data set in an unstructured way and to uncover initial patterns, characteristics, and points of interest we came to following conclusions
- 
+
+
 1. Data is more in detail in terms of features, geographical location, pricing, amenities etc..
    
 2. Data needs cleaning in some areas as there are 106 columns and about 6121  listings. We will be using excel or pandas for this purpose to identify the correlation between
@@ -69,87 +66,10 @@ To explore this large data set in an unstructured way and to uncover initial pat
  
 #  Technologies, languages, tools, and algorithms used throughout the project:
  
-As a team we did our brainstorming session and came to a decision on what technology or programming language we can use. Things can change according to future project
+![Technology Used](images/tech2.png)
  
-development.
- 
-We did ask following questions to ourselves:
- 
-1. Any specific requirement of dependencies, features, and tools for the programming language?
- 
-2. Which language can support the project ecosystem that can have a major impact on the project timeline and we can work around some constraints.
- 
-3. Are we comfortable in working with this languages and plan for deliverables
- 
-   
-We came to following conclusion after this questions to support our project:
- 
- 
-1. Technology Resources: Excel, Python, SQL,   Tableau
- 
-2. Operating Systems: Windows or Mac.
- 
-3. Front End Development: JavaScript, HTML, and CSS
- 
-4. Data Storage: Postgresql, MongoDB, AWS or GCS
- 
-5. Backend Development: Python
- 
-6. Data analytics / Machine Learning: Python or R
- 
-7. Data modeling Technique: Supervised learning using linear regression or other methods
- 
-# Result of analysis:
- 
-Currently our team is align on technology to use for current deliverables and can be updated as we go along with project requirement on adding any new deliverables
- 
-# Deliverables:
- 
-1. Predictions:
-   
-   
-   a) San Francisco hosts joining Airbnb each month
-   
- 
-   b) San Francisco hosts joining Airbnb and listings getting their first review in each month
- 
-   b) San Francisco Airbnb listings getting their first review each month
- 
-   c) Number of listings per host and Change per year
- 
-   d) Nightly price change/year
- 
-   e) Advertised Price range and Distribution
- 
-2. Describe a region using the names of listings in that region
- 
-   a) Plotting the number of listings in each SF neighbor
- 
-   b)  Finding Median price of Airbnb listings in SF neighborhood
- 
-   
-3. Estimate the popularity of a listing based on given features
-   
-   a) accommodation by how many, bathrooms, bedrooms and beds
- 
-4. Features based accommodation: The number of guests, number of bedrooms, bathrooms, beds, price, minimum_nights, maximum_nights, number_of_reviews
- 
- 
-# Recommendation for future analysis
- 
-1. ETL process using geojson file as well that is added to our resource folder
- 
-2. Predicting accuracy of results using different data modeling techniques
-   
-3. Adding more current data to file if available in regards to see how a pandemic can affect businesses
- 
-# Anything the team would have done differently:
- 
-A question that has always been a center of attention but at this point we are sure that we want to move forward with the dataset and focus more on how to make this project
- 
-successful using available technology that we learned so far.
- 
-# Images for our initial approach to project:
+
+ # Images for our initial approach to project:
  
 1. Importing dependencies and Reading csv
  
@@ -182,14 +102,90 @@ successful using available technology that we learned so far.
 ![pgAdmin table reading ](images/pgAdmin_Data_Output.png)
  
 8. ![Project Outline](images/map.png)
- 
-9. Label Encoder
+
+9.  Label Encoder
  
 ![Label Encoder](images/label_encoder.png)
  
 10. DB to ML
    
 ![DB to ML](images/DB_to_ML.png)
+ 
+# Machine Learning Model:
+ 
+1. Description of preliminary data preprocessing:
+   
+   a) Stage:
+   
+   ![ Data Processing Model](images/ML%20Model.png)
+ 
+   b) Process used:
+ 
+   ![Data Processing](images/Data_Processing_%20Method.png)
+
+# Deliverables:
+ 
+1. Predictions:
+   
+   
+   a) San Francisco hosts joining Airbnb each month
+
+   ![SF Hosts Joining Airbnb each Month](images/host_joining_eachmonth.png)
+   
+ 
+   b) San Francisco hosts joining Airbnb and listings getting their first review in each month
+
+   ![Hosts Getting First Reviews](images/firstreview_eachmonth.png)
+ 
+   
+ 
+   c) Number of listings per host and Change per year
+
+   ![ Host Change per year](images/listingperhost_change_peryear.png)
+ 
+   d) Nightly price change/year
+
+   ![Nighty Rate Change](images/nightly_pricechange.png)
+ 
+   e) Advertised Price range and Distribution
+
+   ![ Price Range Distribution](images/pricerage_distribution.png)
+ 
+2. Describe a region using the names of listings in that region
+ 
+   a) Plotting the number of listings in each SF neighbor
+
+   ![Plotting](images/TB1.png)
+ 
+   b)  Finding Median price of Airbnb listings in SF neighborhood
+
+   ![Media Price](images/median_price.png)
+ 
+   
+3. Estimate the popularity of a listing based on given features
+   
+   a) price by neighborhood
+
+   ![Price by Neighbour](images/TB2.png)
+ 
+4. Features based accommodation: The number of guests, number of bedrooms, bathrooms, beds, price, minimum_nights, maximum_nights, number_of_reviews
+ 
+ 
+# Recommendation for future analysis
+ 
+1. ETL process using geojson file as well that is added to our resource folder
+ 
+2. Predicting accuracy of results using different data modeling techniques
+   
+3. Adding more current data to file if available in regards to see how a pandemic can affect businesses
+ 
+# Anything the team would have done differently:
+ 
+A question that has always been a center of attention but at this point we are sure that we want to move forward with the dataset and focus more on how to make this project
+ 
+successful using available technology that we learned so far.
+ 
+
  
 # Machine Learning Model:
  
@@ -249,8 +245,11 @@ The train-test split procedure is appropriate here due to large dataset
  
 Also Sklearn provided the functionality to split the dataset for training and testing. Splitting the dataset is essential for an unbiased evaluation of prediction performance.
  
+4. Different Machine learnig Models Accuracy Score:
+   
+ ![ML Models ACC Score](images/all_ml_models.png)
  
-4. Explanation of model choice, including limitations and benefits:
+5. Explanation of model choice, including limitations and benefits:
  
 Model used: Logistic Regression
  
@@ -262,6 +261,39 @@ Logistic regression can help find the probability of event success and event fai
 # A blueprint for the dashboard
  
 ![Tableau Dashboard](images/tableau_dashboard.png)
+
+# Summary and Conclusion:
+
+1. Factors affecting the number of listings and neighborhood popularity are:
+   
+- Strategic and convenient locations.
+  
+- Sceneries and well known landmarks and attractions.
+  
+- Price.
+  
+- Easy access to public transportation and places to eat.
+  
+- Entertainment and nightlife.
+  
+- Safety/security.
+
+Machine Learning:
+
+1. Gradient boosting model was able to predict best 80% of the variation in price with an RMSE of 0.17.
+   
+2. We still have a remaining 20% to work on.
+   
+3. This is due to several other variables that are not part of our cleaned dataset or analysing features  differently 
+
+# Suggestions:
+
+Including image quality as a feature using supervised learning analyses on a dataset, May be more better images can generate additional revenue per year.
+
+We notice  that reviews about listing location, rather than the location features themselves, were higher in the feature importance list. This finding could perhaps be used by hosts when writing their listing's description.
+
+Highlighting accessibility and location can generate more profits with higher listing price
+
 
 
 
