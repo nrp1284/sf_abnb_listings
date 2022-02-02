@@ -111,18 +111,6 @@ What area of database will be best for Tableau dashboard presentation?
    
 ![DB to ML](images/DB_to_ML.png)
  
-# Machine Learning Model:
- 
-1. Description of preliminary data preprocessing:
-   
-   a) Stage:
-   
-   ![ Data Processing Model](images/ML%20Model.png)
- 
-   b) Process used:
- 
-   ![Data Processing](images/Data_Processing_%20Method.png)
-
 # Deliverables:
  
 1. Predictions:
