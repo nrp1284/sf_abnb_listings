@@ -21,7 +21,7 @@ Since its inception in 2008, Airbnb has disrupted the traditional hospitality in
 
 # Dashboard: 
 
-  - Dashboard: [View Dashboard on Tableau](https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFAirBNBDashboard?publish=yes)
+  - Dashboard: [View Dashboard on Tableau](https://public.tableau.com/app/profile/david.nathanael/viz/SFAirBNBProject/SFairbnbStory?publish=yes)
  
 # Team Communication channels:
  
